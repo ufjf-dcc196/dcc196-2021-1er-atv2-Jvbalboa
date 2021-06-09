@@ -7,12 +7,39 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:id="@+id/frase"
+        android:layout_width="369dp"
+        android:layout_height="174dp"
+        android:text='"Meu nome é Arya Stark. Eu quero que você saiba disso. A última coisa que você verá será um Stark sorrindo para você enquanto morre."'
+        android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.116" />
+
+    <TextView
+        android:id="@+id/nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arya Stark"
+        android:textSize="48sp"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ScrollView
+        android:id="@+id/scrollDescricao"
+        android:layout_width="371dp"
+        android:layout_height="479dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="254dp">
+
+        <TextView
+            android:id="@+id/descricao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text='Arya Stark é uma personagem fictícia da série de livros de fantasia A Song of Ice and Fire, do autor norte-americano George R. R. Martin. Arya também aparece na série de televisão Game of Thrones da HBO, onde é interpretada pela atriz britânica Maisie Williams. Ela é introduzida em ambas as mídias como a segunda filha e o terceiro dos filhos de Lorde Eddard com Lady Catelyn da Casa Stark de Winterfell, uma antiga fortaleza no Norte do fictício continente de Westeros.  Na série literária, ela aparece pela primeira vez em A Game of Thrones (1996), como uma tomboy, obstinada, independente, e que despreza as atividades femininas tradicionais e muitas vezes é confundida com um garoto. Ela usa um pequeno espadim chamado "Needle" (Agulha), um presente de seu meio-irmão, Jon Snow, e é treinada no estilo Braavosi de esgrima. Uma das mais populares personagens tanto dos livros quanto da série de televisão.'
+            android:textSize="24sp" />
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
