@@ -11,7 +11,7 @@
         android:layout_width="379dp"
         android:layout_height="152dp"
         android:layout_marginTop="16dp"
-        android:text='"Meu nome é Arya Stark. Eu quero que você saiba disso. A última coisa que você verá será um Stark sorrindo para você enquanto morre."'
+        android:text="@string/frase"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/nome"
@@ -31,7 +31,7 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
-        android:text="Arya Stark"
+        android:text="@string/nome"
         android:textSize="38sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -52,7 +52,7 @@
             android:id="@+id/descricao"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text='Arya Stark é uma personagem fictícia da série de livros de fantasia A Song of Ice and Fire, do autor norte-americano George R. R. Martin. Arya também aparece na série de televisão Game of Thrones da HBO, onde é interpretada pela atriz britânica Maisie Williams. Ela é introduzida em ambas as mídias como a segunda filha e o terceiro dos filhos de Lorde Eddard com Lady Catelyn da Casa Stark de Winterfell, uma antiga fortaleza no Norte do fictício continente de Westeros. Na série literária, ela aparece pela primeira vez em A Game of Thrones (1996), como uma tomboy, obstinada, independente, e que despreza as atividades femininas tradicionais e muitas vezes é confundida com um garoto. Ela usa um pequeno espadim chamado "Needle" (Agulha), um presente de seu meio-irmão, Jon Snow, e é treinada no estilo Braavosi de esgrima. Uma das mais populares personagens tanto dos livros quanto da série de televisão.'
+            android:text="@string/descricao"
             android:textSize="20sp" />
     </ScrollView>
 
