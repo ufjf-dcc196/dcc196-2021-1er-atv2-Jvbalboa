@@ -8,8 +8,8 @@
 
     <TextView
         android:id="@+id/frase"
-        android:layout_width="379dp"
-        android:layout_height="152dp"
+        android:layout_width="653dp"
+        android:layout_height="115dp"
         android:layout_marginTop="16dp"
         android:text='"Meu nome é Arya Stark. Eu quero que você saiba disso. A última coisa que você verá será um Stark sorrindo para você enquanto morre."'
         android:textSize="24sp"
@@ -24,8 +24,8 @@
 
     <TextView
         android:id="@+id/nome"
-        android:layout_width="373dp"
-        android:layout_height="53dp"
+        android:layout_width="655dp"
+        android:layout_height="54dp"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
         android:layout_marginTop="32dp"
@@ -39,8 +39,8 @@
 
     <ScrollView
         android:id="@+id/scrollDescricao"
-        android:layout_width="370dp"
-        android:layout_height="419dp"
+        android:layout_width="650dp"
+        android:layout_height="129dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
